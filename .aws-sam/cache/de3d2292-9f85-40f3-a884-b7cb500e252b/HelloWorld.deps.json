@@ -1,0 +1,111 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0/linux-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {},
+    ".NETCoreApp,Version=v6.0/linux-x64": {
+      "HelloWorld/1.0.0": {
+        "dependencies": {
+          "AWSSDK.CognitoIdentityProvider": "3.7.404.2",
+          "Amazon.Lambda.APIGatewayEvents": "2.7.0",
+          "Amazon.Lambda.Core": "2.2.0",
+          "Amazon.Lambda.Serialization.SystemTextJson": "2.4.0"
+        },
+        "runtime": {
+          "HelloWorld.dll": {}
+        }
+      },
+      "Amazon.Lambda.APIGatewayEvents/2.7.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/Amazon.Lambda.APIGatewayEvents.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.2.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.Core/2.2.0": {
+        "runtime": {
+          "lib/net6.0/Amazon.Lambda.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "Amazon.Lambda.Serialization.SystemTextJson/2.4.0": {
+        "dependencies": {
+          "Amazon.Lambda.Core": "2.2.0"
+        },
+        "runtime": {
+          "lib/net6.0/Amazon.Lambda.Serialization.SystemTextJson.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          }
+        }
+      },
+      "AWSSDK.CognitoIdentityProvider/3.7.404.2": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.400.59"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.CognitoIdentityProvider.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.404.2"
+          }
+        }
+      },
+      "AWSSDK.Core/3.7.400.59": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.400.59"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HelloWorld/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Amazon.Lambda.APIGatewayEvents/2.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-HAbdRKLzvUqRg/fItan7up/PWsj6vQfYF+1a4YV6sv1bq5TuK/ra+ndJwWMlzL+MFJzJaHwCmtkyBbh/vz8Oig==",
+      "path": "amazon.lambda.apigatewayevents/2.7.0",
+      "hashPath": "amazon.lambda.apigatewayevents.2.7.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.Core/2.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DHqKeD1CYocP0t1dJC/NaXfu+5k6AoqnQ1Hlu/J2mXpLpCyeJfY+tIqT5fpruDarUlU0NtdIH8zSkCjeinyb1A==",
+      "path": "amazon.lambda.core/2.2.0",
+      "hashPath": "amazon.lambda.core.2.2.0.nupkg.sha512"
+    },
+    "Amazon.Lambda.Serialization.SystemTextJson/2.4.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VwHKBvAD3ivAoAYjRNy/LsZaoFayKAWhVYOTYur5UQZzxYCC6itTwBH5skt3l8FCIjOAGnZljHNnayu17Y53jw==",
+      "path": "amazon.lambda.serialization.systemtextjson/2.4.0",
+      "hashPath": "amazon.lambda.serialization.systemtextjson.2.4.0.nupkg.sha512"
+    },
+    "AWSSDK.CognitoIdentityProvider/3.7.404.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-V7gGOyMWgR6VG5xJiGNvp7b4wbgQvma7m3Irutl4zbeeM6YBq84xBzpnzqFjPdCv9M1zcgJPSot47iOoH5ztRA==",
+      "path": "awssdk.cognitoidentityprovider/3.7.404.2",
+      "hashPath": "awssdk.cognitoidentityprovider.3.7.404.2.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.7.400.59": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-JpF1RLRti7AJsN3Y8kbmKhZ7Q0/6wujYrxYIF0A22CJB9ndYJ95TgKmcV/7KLmrG9AFH3cwJ1HEv6jsCpteveQ==",
+      "path": "awssdk.core/3.7.400.59",
+      "hashPath": "awssdk.core.3.7.400.59.nupkg.sha512"
+    }
+  }
+}
