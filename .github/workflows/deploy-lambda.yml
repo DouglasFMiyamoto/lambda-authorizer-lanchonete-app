@@ -10,7 +10,7 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    if: github.event.pull_request.merged == true # Só executa se o PR foi mergeado
+    if: github.event.pull_request.merged == true
 
     steps:
       # Checkout do código
