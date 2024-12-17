@@ -1,13 +1,16 @@
 name: Deploy Lambda .NET 6
 
 on:
-  push:
+  pull_request:
+    types:
+      - closed # Quando o PR for fechado (merge)
     branches:
-      - main
+      - main   # Somente na branch main
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true # Só executa se o PR foi mergeado
 
     steps:
       # Checkout do código
